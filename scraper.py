@@ -8,9 +8,9 @@ import urllib2
 
 # Change QUERY to your search term of choice. 
 # Examples: 'newsnight', 'from:bbcnewsnight', 'to:bbcnewsnight'
-QUERY = '#opendata'
+QUERY = '#inşaat'
 RESULTS_PER_PAGE = '100'
-LANGUAGE = 'en'
+LANGUAGE = 'tr'
 NUM_PAGES = 1000 
 
 for page in range(1, NUM_PAGES+1):
